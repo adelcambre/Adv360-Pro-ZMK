@@ -37,7 +37,7 @@
           &kp TAB   &kp Q     &kp W    &kp E    &kp R      &kp T  &kp KP_NUMBER_1                                                      &kp KP_NUMBER_3 &kp Y  &kp U  &kp I     &kp O    &kp P    &kp BSLH
           &mt LCTRL ESC   &kp A     &kp S    &kp D    &kp F      &kp G  &kp KP_NUMBER_2    &kp ESC &kp HOME                    &mo 2  &kp RCTRL                   &kp KP_NUMBER_4 &kp H  &kp J  &kp K     &kp L    &kp SEMI &kp SQT
           &kp LSHFT &kp Z     &kp X    &kp C    &kp V      &kp B        &none     &none     &kp END &none &none &kp PG_UP &none     &none            &kp N  &kp M  &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
-          &mo 1     &kp GRAVE &kp CAPS &kp LEFT &kp RIGHT               &kp BKSP  &kp LGUI   &kp LALT              &kp PG_DN &kp ENTER &kp SPACE               &kp UP &kp DOWN  &kp LBKT &kp RBKT &mo 2
+          &mo 1     &kp GRAVE &kp CAPS &kp LEFT &kp RIGHT               &kp BKSP &kp LGUI   &kp LALT              &kp PG_DN &kp ENTER &kp SPACE &kp DOWN &kp UP  &kp LBKT &kp RBKT &mo 2
           >;
       };
       functions {
@@ -46,7 +46,7 @@
           &kp TAB   &kp Q     &kp W    &kp LC(LA(E))    &kp LC(LA(R))      &kp LC(LA(T))  &kp KP_NUMBER_1                                                      &kp KP_NUMBER_3 &kp Y  &kp LC(LA(U))  &kp LC(LA(I))     &kp O    &kp P    &kp BSLH
           &mt LCTRL ESC   &kp A     &kp S    &kp LC(LA(D))    &kp LC(LA(F))      &kp LC(LA(G))  &kp KP_NUMBER_2    &kp ESC &kp HOME                    &mo 2  &kp RCTRL                   &kp KP_NUMBER_4 &kp H  &kp LC(LA(J))  &kp LC(LA(K))     &kp L    &kp SEMI &kp SQT
           &kp LSHFT &kp Z     &kp X    &kp C    &kp V      &kp B        &none     &none     &kp END &none &none &kp PG_UP &none     &none            &kp N  &kp M  &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
-          &trans     &kp GRAVE &kp CAPS &kp LC(LA(LEFT)) &kp LC(LA(RIGHT))               &kp BKSP  &kp LGUI   &kp LALT              &kp PG_DN &kp ENTER &kp SPACE               &kp LC(LA(DOWN)) &kp LC(LA(UP))  &kp LBKT &kp RBKT &mo 2
+          &trans     &kp GRAVE &kp CAPS &kp LC(LA(LEFT)) &kp LC(LA(RIGHT)) &kp BKSP  &kp LGUI   &kp LALT              &kp PG_DN &kp LC(LA(ENTER)) &kp SPACE               &kp LC(LA(DOWN)) &kp LC(LA(UP))  &kp LBKT &kp RBKT &mo 2
         >;
       };
       mod {
